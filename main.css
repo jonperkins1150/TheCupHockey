@@ -1,0 +1,107 @@
+body {
+    font-size 70%;
+    background: url(assets/rink.jpg);
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1 {
+    color: black;
+    font-size: 24pt;
+    margin: 0 30pt 0 30pt;
+    padding: 0;
+}
+h2 {
+    color: black;
+    font-size: 24pt;
+    margin: 0.5em 0 0.35em 0;
+    padding: 0px;
+}
+p{
+    color: black;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    margin: 0.5em 0 0.75em 0;
+    padding: 0px;
+} 
+
+header h1{
+    font-style: bold;
+    color: red;
+    font-size:30pt;
+    margin: 5;
+}
+
+nav{
+    color: red;
+    font-style: bold;
+    font-size: 25pt;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 0 0 0 0;
+}
+nav ul{
+    margin: 0 0 0 0;
+    padding: 15pt;
+    text-align: right;
+ }
+
+nav li{
+    display: inline-block;
+    margin: 0 0 0 0;
+}
+
+nav li:hover{
+    background-color: grey;
+    margin: 0 0 0 0;
+}
+
+section div.panel{
+    float: left;
+    position: relative;
+    padding: 5px;
+    width: 600px;
+    height: 450px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    background: url(assets/hockeyice.jpg);
+    border: solid 1px black;
+    border-radius: 5%;
+}
+   section div.panel img.serviceType {
+    width: 56%;
+    margin-left: 120px;
+    padding: 10px;
+    
+}
+
+footer {
+    height: 25px;
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1.5em 2.0em
+ 
+}
+
+footer li
+{
+    list-style-type: none;
+}
+
+.img
+{
+      text-align: center;
+      height: 35px;
+      width: 35px;
+      padding: 10px;
+      border-radius: 30px;
+}  
+
